@@ -1,0 +1,26 @@
+.nav{
+    display: flex;
+    box-shadow: 0px 0px 100px 0px ;
+}
+
+.botao {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between; /* Mantém o botão Confirmar à esquerda e os outros à direita */
+    align-items: center; /* Centraliza verticalmente os itens */
+    width: 100%;
+    padding: 10px;
+}
+
+.botoes {
+    margin-left: auto; /* Empurra os botões "1", "2", "3" para a direita */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.card{
+    margin-right: 10px;
+}
