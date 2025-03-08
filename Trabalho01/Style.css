@@ -6,14 +6,14 @@
 .botao {
     margin-top: 10px;
     display: flex;
-    justify-content: space-between; /* Mantém o botão Confirmar à esquerda e os outros à direita */
-    align-items: center; /* Centraliza verticalmente os itens */
+    justify-content: space-between;
+    align-items: center; 
     width: 100%;
     padding: 10px;
 }
 
 .botoes {
-    margin-left: auto; /* Empurra os botões "1", "2", "3" para a direita */
+    margin-left: auto; 
 }
 
 button {
@@ -23,4 +23,30 @@ button {
 
 .card{
     margin-right: 10px;
+}
+
+.boletim{
+    margin-top: 150px;
+}
+
+.horario{
+    margin-top: 150px;
+}
+
+.financeiro{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center; 
+}
+th {
+    background-color: #f2f2f2;
 }
